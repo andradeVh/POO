@@ -1,14 +1,17 @@
+![GitHub License](https://img.shields.io/github/license/andradeVh/POO)
+
+
 # Atividades práticas da disciplina de Programação Orientada a Objetos
 
-Repositórios com as atividades práticas da disciplina de Programação Orientada a Objetos.
+>Repositórios com as atividades práticas da disciplina de Programação Orientada a Objetos.
 
 ## Laboratórios
 
-[Laboratório 01](lab-01/README.md) - Sistema de Controle de Versão
+- [Laboratório 01](lab-01/README.md) - Sistema de Controle de Versão
 
 
 
 
 ## Aulas
 
-[Aula 01](./README.md) - Introdução à linguagem Java
+- [Aula 01](aula-01/README.md) - Introdução à linguagem Java
