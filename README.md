@@ -4,7 +4,7 @@ Repositórios com as atividades práticas da disciplina de Programação Orienta
 
 ## Laboratórios
 
-[Laboratório 01](./README.md) - Sistema de Controle de Versão
+[Laboratório 01](lab-01/README.md) - Sistema de Controle de Versão
 
 
 
