@@ -9,9 +9,6 @@
 
 - [Laboratório 01](lab-01/README.md) - Sistema de Controle de Versão
 
-
-
-
 ## Aulas
 
 - [Aula 01](aula-01/README.md) - Introdução à linguagem Java
