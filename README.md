@@ -11,4 +11,4 @@
 
 ## Aulas
 
-- [Aula 01](aula-01/README.md) - Introdução à linguagem Java
+- [Aula 01](aula-01/) - Introdução à linguagem Java
