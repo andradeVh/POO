@@ -1,7 +1,6 @@
 ### 1. Estação do ano 
 Faça um programa que leia do teclado um número inteiro que representa o
-dia, e uma string que representa o mês. Por fim, imprima na tela a estação do ano correspon-
-dente aqui no Brasil.
+dia, e uma string que representa o mês. Por fim, imprima na tela a estação do ano correspondente aqui no Brasil.
 
 ```
 Entre com o dia: 21
