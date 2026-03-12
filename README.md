@@ -14,3 +14,11 @@
 ## Aulas
 
 - [Aula 01](aula-01/) - Introdução à linguagem Java
+
+- [Aula 05](aula-05/) - Introdução à linguagem Java
+
+- [Aula 07](aula-07/) - Introdução à linguagem Java
+
+- [Aula 08](aula-08/) - Introdução à linguagem Java
+
+- [Aula 09](aula-09/) - Introdução à linguagem Java
