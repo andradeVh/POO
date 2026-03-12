@@ -21,4 +21,6 @@
 
 - [Aula 08](aula-08/) - Introdução à modelagem de objetos
 
-- [Aula 09](aula-09/) - Introdução à POO
+- [Aula 09](aula-09/) - Introdução à modelagem de objetos
+
+- [Aula 10](aula-10/) - Introdução à POO
