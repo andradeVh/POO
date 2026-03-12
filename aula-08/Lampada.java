@@ -5,15 +5,15 @@ public class Lampada {
 
     // Métodos
 
-    boolean isLigada(){
+    boolean isLigada() {
         return ligada;
     }
 
-    boolean trocaEstado(){
+    boolean trocaEstado() {
         ligada = !ligada;
         return ligada;
     }
 
-    //obs: métodos são publicos, atributos são privados
+    // obs: métodos são publicos, atributos são privados
 
 }
