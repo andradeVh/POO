@@ -10,21 +10,21 @@ public class Horario {
     }
 
     public Horario(int hora) {
-        this.hora = hora;
-        this.minuto = 0;
-        this.segundo = 0;
+        this(hora, 0, 0);
     }
 
     public Horario(int hora, int minuto) {
-        this.hora = hora;
-        this.minuto = minuto;
-        this.segundo = 0;
+        this(hora, minuto, 0);
     }
 
     public Horario(int hora, int minuto, int segundo) {
-        this.hora = hora;
-        this.minuto = minuto;
-        this.segundo = segundo;
+        this();
+        if (hora < 24 && minuto < 60 && segundo < 24){
+            this.hora = hora;
+            this.minuto = minuto;
+            this.segundo = segundo;
+        }
+
     }
 
     public boolean setHora(int a) {
@@ -114,6 +114,14 @@ public class Horario {
             return singular;
         }
         return plural;
+    }
+
+    public long tempoSegundos(){
+        return (this.hora * 3600L) + (this.minuto * 60L) + this.segundo;
+    }
+
+    public long diferencaHora(Horario h){
+        return tempoSegundos() - h.tempoSegundos();
     }
 
 }
