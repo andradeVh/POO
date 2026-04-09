@@ -37,7 +37,7 @@ public class Main {
                     cadastrar();
                     break;
                 case 2:
-                    // listarLivros();
+                    listarLivros();
                     break;
                 case 3:
                     // listarLivrosAno();
@@ -69,14 +69,14 @@ public class Main {
 
         IO.println("Livro cadastrado com sucesso!");
     }
-/*
+
     void listarLivros(){
-        listaLivros.forEach((ISBN, titulo  ) -> {
-            System.out.println("ISBN: " + ISBN);
-            System.out.println("Título: " + listaLivros.get());
+        listaLivros.forEach((ISBN, livro  ) -> {
+            System.out.println("ISBN: " + livro.getISBN());
+            System.out.println("Título: " + livro.getTitulo());
         });
     }
-*/
+
 
     static void main(String[] args) {
 
