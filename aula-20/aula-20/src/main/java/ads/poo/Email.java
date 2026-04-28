@@ -3,18 +3,19 @@ package ads.poo;
 import java.util.HashMap;
 
 public class Email {
-    // Atributo privado conforme solicitado
     private HashMap<String, String> dados;
 
-    // Construtor para inicializar o HashMap
     public Email() {
         this.dados = new HashMap<>();
     }
 
     public boolean add (String rotulo, String valor) {
-        if (!dados.containsKey(rotulo)) {
-            dados.put(rotulo, valor);
-            return true;
+        String eR = "^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
+        if (!dados.containsKey(rotulo)){
+            if (valor.matches(eR)){
+                dados.put(rotulo, valor);
+                return true;
+            }
         }
         return false;
     }

@@ -16,6 +16,7 @@ public class Agenda {
         return false;
     }
 
+
     public ArrayList<Contato> findContato(String nome, String sobreNome) {
         ArrayList<Contato> resultados = new ArrayList<>();
         for (Contato c : contatos) {

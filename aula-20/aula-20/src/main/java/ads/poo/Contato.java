@@ -9,7 +9,7 @@ public class Contato {
     private Telefone telefones;
     private Email emails;
 
-    public Contato(String nome, String sobrenome, LocalDate dataNasc, Telefone telefone, Email email) {
+    public Contato(String nome, String sobrenome, LocalDate dataNasc) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.dataNasc = dataNasc;
