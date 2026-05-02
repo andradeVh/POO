@@ -109,7 +109,6 @@ public class Main {
         IO.println("Conta não encontrada!");
     }
 
-    // todo ajustar output de saldo insuficiente
     void sacar() {
         String numero = IO.readln("Número da conta: ");
 
