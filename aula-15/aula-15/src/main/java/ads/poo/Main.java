@@ -91,6 +91,15 @@ public class Main {
             // Se o número dessa conta for igual ao número digitado
             if (c.getNumero().equals(numero)) {
                 double valor = Double.parseDouble(IO.readln("Valor de Depósito? "));
+
+                if (!(valor <= 0)) {
+                    IO.println("Valor inválido!");
+                } else {
+                    c.depositar(valor); // Conta c, adiciona esse valor no saldo
+                    IO.println(String.format("Depósito de %.2f realizado!", valor));
+                    IO.println(String.format("Saldo atual: %.2f", c.getSaldo()));
+                }
+
                 c.depositar(valor); // Conta c, adiciona esse valor no saldo
                 IO.println(String.format("Depósito de %.2f realizado!", valor));
                 IO.println(String.format("Saldo atual: %.2f", c.getSaldo()));
@@ -108,9 +117,15 @@ public class Main {
         for (Conta c : listaContas) {
             if (c.getNumero().equals(numero)) {
                 double valor = Double.parseDouble(IO.readln("Valor do Saque? "));
-                c.sacar(valor);
-                IO.println(String.format("Saque de %.2f realizado!", valor));
-                IO.println(String.format("Saldo atual: %.2f", c.getSaldo()));
+                if (valor <= 0) {
+                    IO.println("Valor inválido!");
+                } else if (valor > c.getSaldo()) {
+                    IO.println("Saldo insuficiente!");
+                } else {
+                    c.sacar(valor); // Conta c, subtrai esse valor no saldo
+                    IO.println(String.format("Saque de %.2f realizado!", valor));
+                    IO.println(String.format("Saldo atual: %.2f", c.getSaldo()));
+                }
                 return;
             }
         }

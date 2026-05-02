@@ -12,21 +12,11 @@ public class Conta {
     }
 
     public void depositar(double valor) {
-        if (valor <= 0) {
-            IO.println("Valor inválido!");
-        } else {
-            saldo += valor;
-        }
+        saldo += valor;
     }
 
     public void sacar(double valor) {
-        if (valor <= 0) {
-            IO.println("Valor inválido!");
-        } else if (valor > saldo) {
-            IO.println("Saldo insuficiente!");
-        } else {
-            saldo -= valor;
-        }
+        saldo -= valor;
     }
 
     public String toString() {
