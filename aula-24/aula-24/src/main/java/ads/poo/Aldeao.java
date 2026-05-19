@@ -11,7 +11,7 @@ public class Aldeao extends Personagem implements Guerreiro{
     public String mover() {
         return super.mover() + "Aldeão";
     }
-
+//
     @Override
     public String atacar() {
         return "Aldeao atacando";
