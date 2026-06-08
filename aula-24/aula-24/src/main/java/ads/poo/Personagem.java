@@ -13,7 +13,7 @@ public abstract class Personagem {
 
 
     public String mover(){
-        return "movendo com velocidade de: " + velocidade;
+        return "movendo ";
     }
 
     // public abstract String atacar();

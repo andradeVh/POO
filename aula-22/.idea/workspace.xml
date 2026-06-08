@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8a11e29-44dc-42b4-823d-6baa27df8ea8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aula-24/aula-24/src/main/java/ads/poo/Coletor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-06/lab-06/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-22/libs/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula-22/src/main/java/ads/poo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-24/aula-24/src/main/java/ads/poo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-24/aula-24/src/main/java/ads/poo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-24/aula-24/src/main/java/ads/poo/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-24/aula-24/src/main/java/ads/poo/Personagem.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3E3O81POoRY89ufWq7hOB3CiJ3K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vic/Projects/POO/lab-05",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Settings.Markdown",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8a11e29-44dc-42b4-823d-6baa27df8ea8" name="Changes" comment="" />
+      <created>1779403623362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779403623362</updated>
+      <workItem from="1779403624601" duration="126000" />
+      <workItem from="1779403814174" duration="4000" />
+      <workItem from="1779462045523" duration="144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
