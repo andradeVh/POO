@@ -16,10 +16,10 @@ public enum Valor {
     REI(13, "k");
 
     public final int valor;
-    public final String inicia;
+    public final String inicial;
 
-    Valor(int valor, String inicia) {
+    Valor(int valor, String inicial) {
         this.valor = valor;
-        this.inicia = inicia;
+        this.inicial = inicial;
     }
 }
