@@ -36,7 +36,7 @@ public class CartaGUI extends Carta {
 
     public boolean foiClicada(double mouseX, double mouseY) {
         return mouseX >= x - LARGURA / 2 && mouseX <= x + LARGURA / 2
-                && mouseY >= y - LARGURA / 2 && mouseY <= y + LARGURA / 2;
+                && mouseY >= y - ALTURA / 2 && mouseY <= y + ALTURA / 2;
     }
 
     public void virarCarta() {
